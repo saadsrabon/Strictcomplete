@@ -1,0 +1,340 @@
+/* Global Css */
+*{
+    margin: 0;
+    padding:0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    font-family:'Lato', sans-serif;
+
+}
+a,a:hover{
+    text-decoration: none;
+}
+.col-md-6{
+    width: 50%;
+    float: left;
+}
+.col-md-12{
+    width: 100%;
+    float: left;
+}
+.col-md-4{
+    width: 33.33%;
+    float: left;
+}
+.container{
+    width:100%;
+    float: left;
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+/* Global Css End */
+
+/* Header Part Css Start */
+.header-part{
+    background-color: #f6f9f9;
+    overflow: hidden;
+}
+.logo{
+    width: 70%;
+    padding: 17px 0px;
+    text-align: center;
+   
+}
+.nav{
+    line-height: 68px;
+    font-size: 17px;
+    font-weight:bold;
+ margin-left: 100px;
+ 
+}
+.nav li{
+     display: inline-block;
+     padding: 0px 10px;
+     font-family:'Lato', sans-serif; 
+}
+
+/* Header Part End */
+
+/* Banner Part Css */
+.banner{
+    width: 100%;
+    float: left;
+    background: url(../images/Strict.png) center top no-repeat;
+    background-size: cover;
+    padding: 130px 0px;
+    text-align: center;
+    overflow: hidden;
+
+}
+.banner .inner{
+    text-align: center;
+    width: 100%;
+    float: left;
+    padding: 80px 0px;
+
+
+}
+.banner .inner h1{
+    color:#f6f9f9;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.banner .inner .divider{
+    width: 40%;
+    height: 2px;
+    background-color: #15a4fa;
+    margin: 0 auto;
+    margin-bottom: 15px;
+
+}
+.banner .inner p{
+    color: #f6f9f9;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.banner .inner a{
+    color: #f6f9f9 ;
+    border: 1px solid #15a4fa;
+    padding: 6px 8px;
+    margin: 10px 0px;
+    display: inline-block;
+}
+.banner .inner .icon{
+    margin-top: 300px;
+}
+
+/* Banner css ends Here */
+
+/* Simple part Css Statrs  */
+.sipmle-part{
+    width: 100%;
+ 
+    padding: 30px 0;
+    font-family:'Lato', sans-serif;
+    text-align: center;
+    padding: 20px 0;
+    float: left;
+    background-color:#f6f9f9;
+ 
+
+}
+.inner-simple{
+    float: left;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+ 
+ 
+}
+.inner-simple h1{
+    line-height: 24px;
+    padding: 10px 0;
+    font-family:'Lato', sans-serif;
+    text-align: center;
+    color: #2d3950;
+   
+}
+.inner-simple p{
+    line-height: 24px;
+    font-family:'Lato', sans-serif;
+    text-align: center;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+    font-family:'Lato', sans-serif;
+}
+/* Simple part css ends from here */
+
+/* Feauters box css starts From here */
+.feautre-box{
+    width: 100%;
+    float: left;
+    padding: 40px 10px;
+    margin-top: 20px;
+    
+    text-align: center;
+    margin-bottom: 20px;
+}
+.feautre-box .inner-box{
+    width: 100%;
+    float: left;
+
+}
+.inner-box h1{
+   
+    font-family:'Lato', sans-serif;
+  
+    color: #2d3950;
+    font-size: 20px;
+    padding: 5px 0;
+    margin: 5px 0;
+ 
+}
+
+
+/* Features box css ends from here */
+
+/* Portfolio Section Css start */
+
+.portfolio-section{
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color:#f6f9f9;
+    margin-top: 40px 0;
+  
+}
+
+
+
+.title h4{
+    font-size: 25px;
+    line-height: 24px;
+    padding: 10px 0;
+    font-family:'Lato', sans-serif;
+    text-align: center;
+    color: #2d3950;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.title p{
+    line-height: 24px;
+    font-family:'Lato', sans-serif;
+    text-align: center;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+    font-family:'Lato', sans-serif;
+    margin-bottom: 25px;
+}
+.portfolio-box{
+    float: left;
+    width: 100%;
+    position: relative;
+    margin: 20px 20px;
+
+}
+.overlay{
+    background-color: rgba(23, 152,232,.7);
+    width: 81%;
+    height: 99%;
+    float: left;
+    position: absolute;
+    top: 0;
+    left: 43px;
+    display: none;
+    transition: 1s;
+}
+.portfolio-box:hover .overlay{
+    display: block;
+}
+.icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+/* Portfolio Section Css Ends */
+
+/* Stay With us Section Starts  */
+
+.stay-section{
+    float: left;
+    width: 100%;
+    margin: 20px auto;
+    padding: 30px 0;
+    text-align: center;
+    background:url(../images/back.png) center top no-repeat;
+
+}
+
+.stay-caption h1{
+    color: #f6f9f9;
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    margin-top: 70px;
+}
+.stay-caption p{
+    color: #f6f9f9;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+ .stay-capton h1{
+    color:#ffffff;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.form-group{
+    width: 100%;
+    float: left;
+    margin: 10px 0;
+
+}
+.form-control{
+    width: 50%;
+    background:transparent;
+    outline-color: none;
+    border:1px solid #f6f9f9;
+    border-radius: 5px;
+    color: #999999;
+    padding: 12px
+
+}
+.alada{
+    margin-left: 70px;
+    color: #999999;
+}
+.adb{
+    color: #ffffff;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.btn-primary{
+   color: #999999;
+   border:1px solid #15a4fa;
+   padding: 8px 28px;
+   background: transparent;
+   margin-right: 55px;
+}
+
+/* Stay With us Section  End*/
+
+/* Footer Css */
+.footer-section p{
+    line-height: 74px;
+    font-family:'Lato', sans-serif;
+    text-align: center;
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    font-family:'Lato', sans-serif;
+    margin-bottom: 25px;
+}
+.nav-footer{
+    text-align: right;
+    margin-right: 20px;
+}
+.fnav li{
+    display: inline-block;
+    padding: 10px;
+}
+.fnav li a{
+    display: inline-block;
+    color: #ffffff;
+    background-color: #15a4fa;
+    padding: 15px;
+  
+}
